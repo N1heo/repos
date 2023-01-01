@@ -1,0 +1,195 @@
+/* navbar */
+.navbar a {
+    color: white;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+    opacity:0.5;
+}
+
+/* hero background image */
+.bgimage {
+    height: 120vh;
+    background: url('../images/bck.webp');
+    background-size:cover;
+    position:relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white ;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 40px;
+    cursor: pointer;
+}
+.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #ffffff;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #51a5c7;
+    text-align: center;
+}
+/* text size */
+#number {
+    font-size: 20px;
+    color:black;
+}
+#gmail {
+    font-size: 20px;
+    color:black;
+}
+#copyright{
+    font-size: 20px;
+    color:#000000;
+}
+
+/* spacing on all sections */
+#hobbies {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+#guitar, #sports{
+    margin-top: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+/* hobbies section */
+.imageSports {
+    width:100;
+    height:auto;
+    position: relative;
+}
+.imageGuitar{
+    width:100;
+    height:auto;
+    position: relative;
+    border-radius: 1000px;
+}
+.sportsText{
+    position:relative;
+}
+
+/* animations */
+@keyframes move {
+    0%   {left:-100%; top:0%;}
+    100% {left:140%; top:0%;}
+}
+
+@keyframes rotate {
+    0% {-webkit-transform: rotate(0deg) skewY(0deg); /* Chrome, Safari, Opera */
+        -moz-transform: rotate(0deg) skewY(0deg); /* Firefox */
+        -ms-transform: rotate(0deg) skewY(0deg); /* Internet Explorer */}
+
+    100%{-webkit-transform: rotate(360deg) skewY(0deg); /*Chrome, Safari, Opera */
+        -moz-transform: rotate(360deg) skewY(0deg); /* Firefox */
+        -ms-transform: rotate(360deg) skewY(0deg); /* Internet Explorer */}
+}
+
+/* works section */
+.imageSoon{
+    width: 100%;
+    height: auto;
+    position: relative;
+    animation-name: move, rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.soonImg {
+    overflow: hidden;
+}
+
+.portal1{
+    position: relative;
+    right:5%
+}
+
+.portal2{
+    position: relative;
+    left:5%;
+}
+
+/* button styling */
+  #clickbtn {
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-color: #093c53;
+    font-size: 30px;
+    font-family: verdana;
+    box-shadow: 0px 0px 6px #242424;
+    border: 1px solid #000000;
+    position: relative;
+    
+    left:10%;
+  }
+  
+  #clickbtn:hover {
+    background-color: #24c6dc;
+    box-shadow: 0px 0px 20px #ffffff;
+  }
+  #score {
+    font-size: 15px;
+    font-family: verdana;
+    color: rgb(0, 0, 0);
+  }
+  #button_text{
+    font-size: 24px;
+    font-family: verdana;
+    color:rgb(0, 0, 0);
+  }
+
+  /* capybaras section */
+  #imageCapy{
+    width: 100%;
+    height: auto;
+  }
+  #buttonCapy{
+    width: 30%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-color: #093c53;
+    position: relative;
+  }
+
+  .frame {
+    width: 100%;
+    height: auto;
+    border: 11px solid #093c53;
+    background: #093c53;
+    margin: auto;
+  }
+
+/* video section */
+#video{
+    width:100%;
+    height: 400px;
+    position:relative;
+}

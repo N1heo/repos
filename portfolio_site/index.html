@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nazar A. Profile</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+</head>
+<body style="background-color:#5dbde3" onload="loadAll();">
+
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nazar</a>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hobbies">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contacts</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">  <!-- col-lg-12 col-md-12 col-sm-12 col-xs-12 -->
+                    <h2 class="hero_title">Hi, I'm Nazar</h2>
+                    <p class="hero_desc">I am a young guy, trying to find his way in life...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.webp" class= "imageAboutPage" alt="" width="350">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> I was born in 2003, in beatiful counrty called Kyrgyzstan, 
+                        nature is cool here, but the infrastracture not so much. Studied in №70 school, my grades always have been around 4/5. 
+                        For one year I lived in another country, close to Kyrgyzstan, it was Kazakhstan, 
+                        the city was Astana. Didn't really worked out living there so I came back to home. When I returned to my motherland, I felt much better,
+                        because it was kinda gloomily in Astana. So, since then I lived here, in Biskek.
+                        
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>Name</b>: Nazar Apsatarov</li>
+                                <li><b>Age</b>: 18</li>
+                                <li><b>Goal</b>: Game Developer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><b>INFJ</b></li>
+                                <li>C++</li>
+                                <li>Python</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> Currently, I study in the AlaToo International University, on a computer science department. Already 've been through Python, 
+                            now learning web technology at lectures, while trying to get into c++ on my own. The goal is to become game dev, but maybe on my way
+                            I'll work a little in Web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--hobies section-->
+    <section id="hobbies">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Hobies</h1>
+            <div class="row mt-4" id="guitar">
+                <div class="col-lg-4 guitarImage">
+                    <video src="images/guitar.mp4" loop autoplay muted class="imageGuitar"> </video>
+                </div> 
+
+                <div class="col-lg-8 guitarText">
+                    <h3>Guitar</h3>
+                    <p>Sometimes I like to relax, playing some music. Not that good at it, but trying my best.. <br/>
+                        Mostly I use guitar as accompaniment for singing. <br/>
+                        My favourite songs to play are:
+                    </p>
+                    <ul>
+                        <li>"Take me to church"</li>
+                        <li>"Creep"</li>
+                        <li>"Perfect"</li>
+
+                    </ul>
+                </div>
+            </div>    
+            <br/>
+            <br/>
+
+            <div class="row mt-4 justify-content-md-center overflow-hidden" id="sports">
+                <div class="col-lg-6 sportsText">
+                    <h3>Sports</h3>
+                    <p>I never really was a sports guy, but in a few years it's changed a lot, <br/>
+                        now I cant imagine my life without physical activity. <br/> 
+                        I enjoy lots of sports, used to play <i>table tennis</i> in the school, <br/>
+                        then played some <i>voleyball</i>, but rightnow I am more into <i>basketball</i>. <br/>
+                        Also recently I started going to the <i>gym</i>, feels nice. 
+                    </p>
+                </div>
+
+                <div class="col-lg-4 sportsImage">
+                    <img src="images/sports.webp" class="imageSports" alt="Not found"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--works section-->
+    <section id="works">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">Works</h1>
+            <div class="row mt-4 overflow-hidden">
+
+                <div class="col col-lg-4 imageSoon order-2">
+                    <img src="images/soon.webp" class="img-fluid" alt="Not found"/>
+                </div>
+
+                <div class="col col-lg-4 portal1 order-1">
+                    <img src="images/portal1.webp" class="img-fluid float-start" alt="Not found"/>
+                </div>
+
+                <div class="col col-lg-4 portal2 order-3">
+                    <img src="images/portal2.webp" class="img-fluid float-end" alt="Not found"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clicker section -->
+    <section id="clicker">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4 text-center">
+                <!-- button -->
+                <div class="col-lg-5 col-centered" id="background" onload="loadPage();">
+                    <button id="clickbtn" onclick="clickBtn()">Click</button><br><br><br>
+                    <p class="score_text_js" id="score">Clicks: 0</p>
+                </div>
+                <div class="col-lg-6">
+                    <br><br><br><br>
+                    <p id="button_text">Click 20 times to get a reward!)</p>
+                </div>
+                <!-- button -->
+            </div>
+        </div>
+    </section>
+
+    <br/>
+    <br/>
+    <br/>
+
+    <!-- capybaras section -->
+    <section id="fetcher">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4 justify-content-md-center text-center">
+                <h1 class="text-center">Man I Love Baras</h1>
+                <br/><br/><br/>
+                <div class="col-lg-6">
+                    <button onclick="loadData()" id="buttonCapy">GET SOME BARAS</button>
+                    <div class="frame">  
+                        <img src="" alt="" id="imageCapy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="youtube">
+        <div class="container mt-4 pt-4">
+            <div class="row mt-4 justify-content-md-center">
+                <h1 class="text-center">Cool Song</h1>
+                <div class="col-lg-6 embed-responsive embed-responsive-16by9">
+                    <iframe id="video" class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/WHn9XoP1h6Q" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.instagram.com/batmanwillcatchyou/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/N1he0/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/nazar-apsatarov-a232bb23a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/N1heo/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-start" id="number">+996557457070</p>
+                </div>
+                <div class="col">
+                    <p class="text-mid" id="copyright">&copy; 2022 Capybara International</p>
+                </div>
+                <div class="col">
+                    <p class="text-end" id="gmail">napsatarov@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/fetshed.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navbar.js"></script>
+
+</body>
+
+</html>
